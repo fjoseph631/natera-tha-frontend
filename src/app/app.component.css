@@ -1,0 +1,65 @@
+
+.header
+{
+  display: flex;
+  font-size: 50px;
+  justify-content: space-between;
+  position:sticky;
+  top: 0px;
+  background-color:#FFF;
+}
+.itemContainer li{
+display: block}
+.sticky
+{
+  height: 64px;
+  opacity: 1;
+  transition: opacity .25s ease-out, height .15s ease;
+}
+.text.header
+{
+  font-size: 25px
+}
+.itemContainer
+{
+display:flex
+}
+h2.textContainer
+{
+  font-size: 40px;
+}
+header.textContainer
+{
+}
+footer.textContainer
+{
+
+}
+a:link.textContainer
+{
+  text-decoration: none;
+}
+li + li {
+  margin-top: 30px;
+}
+ul
+{
+  list-style: none
+}
+imgSrc.imageContainer
+{
+  width: 30%;
+  float: right;
+  img-width: 350px;
+  justify-content: right;
+  margin-right: 0px;
+
+}
+ul > li
+{
+  font-size: 25px
+}
+ul > li > footer
+{
+  font-size: 25px
+}
